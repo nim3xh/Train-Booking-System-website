@@ -1,0 +1,223 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <!-- Meta -->
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- stylesheet -->
+    <link rel="stylesheet" href="styles\bootstrap\bootstrap.css">
+    <!--  bootstrap -->
+    <link rel="stylesheet" href="styles\customcss\style.css">
+    <!--  custom css -->
+    <link rel="stylesheet" href="styles\customcss\slidercss.css">
+    <!--  custom css -->
+    <link rel="stylesheet" href="styles\customcss\stylebox.css">
+    <!--  custom css -->
+    <title>Document</title>
+</head>
+
+<body class="body">
+
+    <div class="container-fluid bg-dark" id="header1">
+        <header class="d-flex flex-wrap justify-content-center py-3">
+            <a href="index.html" class="d-flex align-items-center mb-3 mb-md-0 me-md-auto text-white text-decoration-none">
+                <svg class="bi me-2" width="40" height="32"></svg>
+                <span class="fs-4 white">Ceylon Train</span>
+            </a>
+
+            <ul class="nav nav-pills">
+                <li class="nav-item"><a href="index.html" class="nav-link text-white bg-primary" aria-current="page" id="navbutton">Home</a></li>
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle text-white" href="#" id="navbarDarkDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+            Let's Go
+          </a>
+                    <ul class="dropdown-menu dropdown-menu-dark" aria-labelledby="navbarDarkDropdownMenuLink">
+                        <li id="trainmap"><a class="dropdown-item">Train Map</a></li>
+                        <li id="trainlist"><a class="dropdown-item">Train List</a></li>
+                        <li id="pricecal"><a class="dropdown-item">Price Calculator</a></li>
+                        <li id="seatbooking"><a class="dropdown-item">Train Seat Booking</a></li>
+                    </ul>
+                </li>
+                <li class="nav-item" id="gallery"><a class="nav-link text-white" id="navbutton">Gallery</a></li>
+                <li class="nav-item" id="contact"><a class="nav-link text-white" id="navbutton">Contact</a></li>
+                <li class="nav-item" id="about"><a class="nav-link text-white" id="navbutton">About</a></li>
+                <li class="nav-item" id="login"><a class="nav-link text-white" id="navbutton">Login</a></li>
+            </ul>
+        </header>
+    </div>
+    <!-- <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script> -->
+    <script src="script/jquery-3.6.0.min.js"></script>
+    <script src="script/customStript/navbar.js"></script>
+
+    <div class="header-slider">
+        <!-- <img src="assets/image/train.jpg" class="img-fluid"> -->
+        <!-- <div class="centered">Page Name</div> -->
+        <div class="slideshow-container">
+
+            <div class="mySlides fade">
+                <div class="numbertext">1 / 7</div>
+                <img src="assets/image/slider/1.jpg" style="width:100%">
+                <div class="text">Welcome</div>
+            </div>
+
+            <div class="mySlides fade">
+                <div class="numbertext">2 / 7</div>
+                <img src="assets/image/slider/2.jpg" style="width:100%">
+                <div class="text">Kandy Railway station</div>
+            </div>
+
+            <div class="mySlides fade">
+                <div class="numbertext">3 / 7</div>
+                <img src="assets/image/slider/3.jpg" style="width:100%">
+                <div class="text">From the Beginning</div>
+            </div>
+            <div class="mySlides fade">
+                <div class="numbertext">4 / 7</div>
+                <img src="assets/image/slider/4.jpg" style="width:100%">
+                <div class="text">Pattipola Railway station</div>
+
+            </div>
+            <div class="mySlides fade">
+                <div class="numbertext">5 / 7</div>
+                <img src="assets/image/slider/5.jpg" style="width:100%">
+                <div class="text">Arch</div>
+            </div>
+            <div class="mySlides fade">
+                <div class="numbertext">6 / 7</div>
+                <img src="assets/image/slider/6.jpg" style="width:100%">
+                <div class="text">With mist</div>
+            </div>
+            <div class="mySlides fade">
+                <div class="numbertext">7 / 7</div>
+                <img src="assets/image/slider/7.jpg" style="width:100%">
+                <div class="text">Ceylon Railway</div>
+            </div>
+
+            <a class="prev" onclick="plusSlides(-1)">❮</a>
+            <a class="next" onclick="plusSlides(1)">❯</a>
+
+            <div class="dot-div" style="text-align:center;">
+                <span class="dot" onclick="currentSlide(1)"></span>
+                <span class="dot" onclick="currentSlide(2)"></span>
+                <span class="dot" onclick="currentSlide(3)"></span>
+                <span class="dot" onclick="currentSlide(4)"></span>
+                <span class="dot" onclick="currentSlide(5)"></span>
+                <span class="dot" onclick="currentSlide(6)"></span>
+                <span class="dot" onclick="currentSlide(7)"></span>
+            </div>
+        </div>
+    </div>
+
+    <div class="stylebox" id="h-10">
+
+    </div>
+    <div class="container backgroundimg" id="container-body">
+
+        <div class="row">
+            <div class="col-4 mainname">
+                Ceylon
+                <br> Train
+            </div>
+            <div class="col">
+                <div class="maindescription">
+
+                    The Ceylon Railway Department is Ceylon's railway owner and primary operator. As part of the Ceylon government, it is overseen by the Ministry of Transport.
+                    <br>
+                    <br>
+                    <br>
+                    <div class="contentend">
+
+                        <a href="history.html" <button type="button" class="btn btn-primary">Read More..</button></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="indexbody">
+        <div class="row">
+            <div class="col">
+                <center>
+                    <h3>
+                        Our Services
+                    </h3>
+                </center>
+            </div>
+        </div>
+        <center>
+            <div class="row m-4">
+                <!-- <div class="col"></div> -->
+                <div class="col">
+                    <div class="customcard">
+                        On time Train Schedule
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="customcard">
+                        24 X 7 Customer Service
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="customcard customcardshow" id="customcardshow">
+                        Online Tickets Booking
+                    </div>
+                </div>
+
+            </div>
+            <div class="row m-4">
+                <!-- <div class="col"></div> -->
+                <div class="col">
+                    <div class="customcard">
+                        Canteen
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="customcard">
+                        USB for Mobile charging
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="customcard">
+                        Washroom
+                    </div>
+                </div>
+            </div>
+        </center>
+
+    </div>
+
+    <div class="bg-dark customfooter p-2">
+
+
+
+        <div class="navbar-brand  w-100 ">
+            <center>
+                <h6>
+
+                    Copyright © 2022 Group 05 5<sup>TH</sup> Batch BICT FOT UOR.
+                    <br>All Rights Reserved
+                </h6>
+            </center>
+        </div>
+
+    </div>
+
+    <script src="script/bootstrap/bootstrap.bundle.min.js"></script>
+    <script src="script/jquery-3.6.0.min.js"></script>
+    <script type="application/javascript" src="script/jquery.cookie.min.js"></script>
+    <script src="script/customStript/slidshow.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script type="application/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery-cookie/1.4.1/jquery.cookie.min.js"></script>
+
+    <script src="script/customStript/index.js"></script>
+
+
+
+
+</body>
+
+</html>

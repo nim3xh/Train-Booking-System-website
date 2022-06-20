@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <!-- Meta -->
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- stylesheet -->
+    <link rel="stylesheet" href="styles\bootstrap\bootstrap.css">
+    <!--  bootstrap -->
+    <link rel="stylesheet" href="styles\customcss\style.css">
+    <!--  custom css -->
+    <link rel="stylesheet" href="styles\customcss\stylebox.css">
+    <!--  custom css -->
+    <title>Document</title>
+</head>
+
+<body class="body">
+
+
+    <div class="container-fluid bg-dark" id="header1">
+        <header class="d-flex flex-wrap justify-content-center py-3">
+            <a href="/" class="d-flex align-items-center mb-3 mb-md-0 me-md-auto text-white text-decoration-none">
+                <svg class="bi me-2" width="40" height="32"></svg>
+                <span class="fs-4 white">Ceylon Train</span>
+            </a>
+
+            <ul class="nav nav-pills">
+                <li class="nav-item"><a href="index.html" class="nav-link text-white bg-primary " aria-current="page">Home</a></li>
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle text-white" href="#" id="navbarDarkDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+            Let's Go
+          </a>
+                    <ul class="dropdown-menu dropdown-menu-dark" aria-labelledby="navbarDarkDropdownMenuLink">
+                        <li id="trainmap"><a class="dropdown-item">Train Map</a></li>
+                        <li id="trainlist"><a class="dropdown-item">Train List</a></li>
+                        <li id="pricecal"><a class="dropdown-item">Price Calculator</a></li>
+                        <li id="seatbooking"><a class="dropdown-item">Train Seat Booking</a></li>
+                    </ul>
+                </li>
+                <li class="nav-item" id="gallery"><a class="nav-link text-white">Gallery</a></li>
+                <li class="nav-item" id="contact"><a class="nav-link text-white">Contact</a></li>
+                <li class="nav-item" id="about"><a class="nav-link text-white">About</a></li>
+                <li class="nav-item" id="login"><a class="nav-link text-white">Login</a></li>
+            </ul>
+        </header>
+    </div>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="script/jquery-3.6.0.min.js"></script>
+    <script type="application/javascript" src="script/jquery.cookie.min.js"></script>
+    <script src="script/customStript/navbar.js"></script>
+
+    <div class="header-img" id="navbar">
+        <img src="assets/image/train.jpg" class="img-fluid">
+        <div class="centered">Page Name</div>
+    </div>
+
+    <div class="stylebox" id="h-10">
+
+    </div>
+
+    <div class="form-container">
+
+        <h2>Registration</h2>
+        <form name="myform" action="" onsubmit="return validate_form()" method="post">
+            User Name :
+            <input type="text" name="username" id="username"> E-mail :
+            <input type="email" name="email" id="email"> Password :
+            <input type="password" name="pass" id="pass"> Confirm Password :
+            <input type="password" name="confirm_pass" id="confirm_pass">
+
+            <div class="row">
+                <div class="col text-center">
+                    <button onclick="allLetter();">Register</button>
+                </div>
+            </div>
+
+        </form>
+    </div>
+    <div id="h-10"></div>
+    <div class="bg-dark customfooter p-2">
+
+
+
+        <div class="navbar-brand  w-100 ">
+            <center>
+                <h6>
+
+                    Copyright © 2022 Group 05 5<sup>TH</sup> Batch BICT FOT UOR.
+                    <br>All Rights Reserved
+                </h6>
+            </center>
+        </div>
+
+    </div>
+
+
+
+
+
+
+
+    <script src="script/bootstrap/bootstrap.bundle.min.js"></script>
+    <script src="script/customStript/register.js"></script>
+
+</body>
+
+</html>
